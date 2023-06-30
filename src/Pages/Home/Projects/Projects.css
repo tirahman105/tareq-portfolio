@@ -1,0 +1,15 @@
+.image-container {
+    height: 27.33%; /* Set the container height to 1/3 of its parent */
+    overflow: hidden; /* Hide the overflow */
+  }
+  
+  .image-container img {
+    transition: transform 4s; /* Add transition effect to the image */
+  }
+  
+  .image-container:hover img {
+    transform: translateY(-50%); /* Move the image up by 50% of its height */
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+    overflow-y: scroll; /* Enable vertical scrolling */
+  }
+  
