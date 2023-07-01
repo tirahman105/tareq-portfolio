@@ -6,7 +6,7 @@ const Banner = () => {
         <div className="w-full">
         
     
-        <div className="hero  bg-blue-50">
+        <div className="hero md:py-28 lg:py-32 bg-blue-50">
           <div className="hero-content flex-col lg:flex-row-reverse justify-end">
             <img
               src={tareq2}
@@ -14,9 +14,9 @@ const Banner = () => {
             />
             <div>
      
-              <h1 className="text-5xl font-bold animate__animated animate__fadeInDown">Md. Tareq Ibna Rahman</h1>
-              <p className="py-6">
-               I am a professional Web developer
+              <h1 className="text-3xl md:text-5xl lg:text-5xl font-bold">Md. Tareq Ibna Rahman</h1>
+              <p className="py-3">
+               I am a Front-End Web Developer
               </p>
               <button className="btn bg-blue-700 text-white hover:bg-blue-400">
     Resume

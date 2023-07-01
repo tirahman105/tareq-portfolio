@@ -1,6 +1,20 @@
 
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
+
+  const scrollToAboutMe = () => {
+    scroll.scrollTo(100); // Adjust the offset value as needed
+  };
+  const scrollToMySkills = () => {
+    scroll.scrollTo(100); // Adjust the offset value as needed
+  };
+  const scrollToMyProjects = () => {
+    scroll.scrollTo(100); // Adjust the offset value as needed
+  };
+  const scrollToMyContact = () => {
+    scroll.scrollTo(100); // Adjust the offset value as needed
+  };
     return (
         <div className="navbar bg-base-100">
         <div className="navbar-start">
@@ -10,9 +24,10 @@ const Navbar = () => {
             </label>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
               <li><a>Home</a></li>
-              <li><a>About Me</a></li>
-              <li><a>Projects</a></li>
-              <li><a>Contact</a></li>
+              <Link to="about-me" smooth={true} onClick={scrollToAboutMe}>About Me</Link>
+              <li><Link to="my-skills" smooth={true} onClick={scrollToMySkills}>My Skills</Link></li>
+          <li><Link to="my-projects" smooth={true} onClick={scrollToMyProjects}>My Projects</Link></li>
+          <li><Link to="my-contact" smooth={true} onClick={scrollToMyContact}>Contact Me</Link></li>
             </ul>
           </div>
           <a className="btn btn-ghost normal-case text-xl">Tareq</a>
@@ -20,9 +35,11 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
           <li><a>Home</a></li>
-              <li><a>About Me</a></li>
-              <li><a>Projects</a></li>
-              <li><a>Contact</a></li>
+          <li><Link to="about-me" smooth={true} onClick={scrollToAboutMe}>About Me</Link></li>
+          <li><Link to="my-skills" smooth={true} onClick={scrollToMySkills}>My Skills</Link></li>
+          <li><Link to="my-projects" smooth={true} onClick={scrollToMyProjects}>My Projects</Link></li>
+          <li><Link to="my-contact" smooth={true} onClick={scrollToMyContact}>Contact Me</Link></li>
+              
           </ul>
         </div>
         <div className="navbar-end">
