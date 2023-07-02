@@ -12,7 +12,7 @@ import { BiLinkExternal, BiLogoGithub } from "react-icons/bi";
 const ProjectSection = () => {
   return (
     <div id="my-projects">
-      <SectionTitle heading={"My SProjects"}></SectionTitle>
+      <SectionTitle heading={"My Projects"}></SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 border p-4 rounded-xl shadow-lg hover:shadow-2xl hover:scale-103 transition-all transform duration-500 my-6">
        
             <div className="relative max-w-full h-72 overflow-hidden rounded-lg">
@@ -57,7 +57,7 @@ const ProjectSection = () => {
               href="https://toy-car-zone.web.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline hover:bg-blue-700 flex justify-center items-center"
+              className="btn btn-outline hover:bg-blue-600 flex justify-center items-center"
             >
              
               <span>Live Preview</span>
@@ -127,10 +127,34 @@ const ProjectSection = () => {
               <button className="badge badge-primary">Firebase</button>
             </div>
           </div>
-          <div className="p-4 flex justify-center items-center">
-            <button className="btn btn-primary mx-1">Live Preview</button>
-            <button className="btn btn-primary mx-1">Client Code</button>
-            <button className="btn btn-primary mx-1">Server Code</button>
+          <div className="p-4 flex justify-center items-center gap-2">
+          <a
+              href="https://toy-car-zone.web.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline hover:bg-blue-700 flex justify-center items-center"
+            >
+            
+              <span>Live Preview</span>
+            </a>
+            <a
+              href="https://github.com/tirahman105/toy-car-zone-client"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline hover:bg-blue-700 flex justify-center items-center my-2"
+            >
+             
+              <span>Client Code</span>
+            </a>
+            <a
+              href="https://github.com/tirahman105/toy-car-zone-server"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline hover:bg-blue-700 flex justify-center items-center"
+            >
+              
+              <span>Server Code</span>
+            </a>
           </div>
         </div>
       </div>
@@ -173,10 +197,34 @@ const ProjectSection = () => {
               <button className="badge badge-primary">Firebase</button>
             </div>
           </div>
-          <div className="p-4 flex justify-center items-center">
-            <button className="btn btn-primary mx-1">Live Preview</button>
-            <button className="btn btn-primary mx-1">Client Code</button>
-            <button className="btn btn-primary mx-1">Server Code</button>
+          <div className="p-4 flex justify-center items-center gap-2">
+          <a
+              href="https://bd-food-f4490.web.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline hover:bg-blue-700 flex justify-center items-center"
+            >
+              
+              <span>Live Preview</span>
+            </a>
+            <a
+              href="https://github.com/tirahman105/bd-food-client"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline hover:bg-blue-700 flex justify-center items-center my-2"
+            >
+              
+              <span>Client Code</span>
+            </a>
+            <a
+              href="https://github.com/tirahman105/bd-food-server"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline hover:bg-blue-700 flex justify-center items-center"
+            >
+             
+              <span>Server Code</span>
+            </a>
           </div>
         </div>
       </div>

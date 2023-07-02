@@ -7,6 +7,8 @@ import ProjectSection from '../Projects/ProjectSection';
 import AboutMe from '../AboutMe/AboutMe';
 import MySkills from '../MySkills/MySkills';
 import BackToTop from '../../../Shared/BackToTop/BackToTop';
+import Contact from '../Contact/Contact';
+import Footer from '../../../Shared/Footer/Footer';
 
 const Home = () => {
     return (
@@ -16,8 +18,10 @@ const Home = () => {
            <AboutMe></AboutMe>
            <MySkills></MySkills>
           <ProjectSection></ProjectSection>
-           <About></About>
+          <Contact></Contact>
+           {/* <About></About> */}
            <BackToTop></BackToTop>
+           <Footer></Footer>
         </div>
     );
 };

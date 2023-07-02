@@ -1,5 +1,6 @@
 
 import { Link, animateScroll as scroll } from "react-scroll";
+import resume from '../../assets/ResumeTareq.pdf'
 
 const Navbar = () => {
 
@@ -24,7 +25,7 @@ const Navbar = () => {
             </label>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
               <li><a>Home</a></li>
-              <Link to="about-me" smooth={true} onClick={scrollToAboutMe}>About Me</Link>
+             <li> <Link to="about-me" smooth={true} onClick={scrollToAboutMe}>About Me</Link></li>
               <li><Link to="my-skills" smooth={true} onClick={scrollToMySkills}>My Skills</Link></li>
           <li><Link to="my-projects" smooth={true} onClick={scrollToMyProjects}>My Projects</Link></li>
           <li><Link to="my-contact" smooth={true} onClick={scrollToMyContact}>Contact Me</Link></li>
@@ -38,12 +39,12 @@ const Navbar = () => {
           <li><Link to="about-me" smooth={true} onClick={scrollToAboutMe}>About Me</Link></li>
           <li><Link to="my-skills" smooth={true} onClick={scrollToMySkills}>My Skills</Link></li>
           <li><Link to="my-projects" smooth={true} onClick={scrollToMyProjects}>My Projects</Link></li>
-          <li><Link to="my-contact" smooth={true} onClick={scrollToMyContact}>Contact Me</Link></li>
+          <li><Link to="contact-me" smooth={true} onClick={scrollToMyContact}>Contact Me</Link></li>
               
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-blue-700 text-white hover:bg-blue-400">Download Resume</a>
+          <a href={resume} download className="btn bg-blue-700 text-white hover:bg-blue-400">Download Resume</a>
         </div>
       </div>
     );

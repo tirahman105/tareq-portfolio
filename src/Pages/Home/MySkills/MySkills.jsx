@@ -51,7 +51,7 @@ const Skills = [
 
 const MySkills = () => {
   return (
-    <div id="my-skills" className="px-8 md:px-0 lg:px-0">
+    <div id="my-skills" className="px-8 md:px-0 lg:px-0 my-32">
       <SectionTitle heading={"My Skills"}></SectionTitle>
 
       <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-6 gap-4">
