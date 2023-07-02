@@ -2,6 +2,7 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 import resume from '../../assets/ResumeTareq.pdf'
 
+
 const Navbar = () => {
 
   const scrollToAboutMe = () => {
@@ -31,7 +32,7 @@ const Navbar = () => {
           <li><Link to="my-contact" smooth={true} onClick={scrollToMyContact}>Contact Me</Link></li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">Tareq</a>
+          <a className="btn btn-ghost normal-case text-blue-800 font-extrabold text-2xl">TAREQ</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

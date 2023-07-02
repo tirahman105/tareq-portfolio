@@ -11,9 +11,9 @@ import { BiLinkExternal, BiLogoGithub } from "react-icons/bi";
 
 const ProjectSection = () => {
   return (
-    <div id="my-projects">
+    <div id="my-projects ">
       <SectionTitle heading={"My Projects"}></SectionTitle>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 border p-4 rounded-xl shadow-lg hover:shadow-2xl hover:scale-103 transition-all transform duration-500 my-6">
+      <div className=" grid grid-cols-1 md:grid-cols-3 gap-3 border p-4 rounded-xl shadow-lg hover:shadow-2xl hover:scale-103 transition-all transform duration-500 my-6">
        
             <div className="relative max-w-full h-72 overflow-hidden rounded-lg">
         <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">
@@ -84,7 +84,7 @@ const ProjectSection = () => {
         </div>
       </div>
       {/* Project 2 */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 border p-4 rounded-xl shadow-lg hover:shadow-2xl hover:scale-103 transition-all transform duration-500 my-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 border p-4 rounded-xl shadow-lg hover:shadow-2xl hover:scale-103 transition-all transform duration-500 my-16">
        
              <div className="relative max-w-full h-72 overflow-hidden rounded-lg">
         <div className="h-max w-full transition-transform duration-[5000ms] ease-linear transform translate-y-0 hover:-translate-y-[calc(100%-18rem)] rounded-lg">

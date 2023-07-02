@@ -4,12 +4,12 @@ const AboutMe = () => {
     return (
         <div id="about-me">
             <div className='grid md:grid-cols-2 lg:grid-cols-2'>
-                <div>
-                    <img className='rounded h-auto w-3/4' src={tareqImg} alt="" />
+                <div >
+                    <img className='rounded mx-auto h-auto w-3/4' src={tareqImg} alt="" />
                 </div>
                 <div className='flex justify-center items-center'>
-                    <div>
-                        <h1 className='text-3xl font-bold'>About Me</h1>
+                    <div className='text-center md:text-left lg:text-left mt-4 px-3 md:mt-0 lg:mt-0 md:px-0 lg:px-0'>
+                        <h1 className='text-4xl  font-bold text-blue-800'>About Me</h1>
                         <p className='my-4 text-xl pr-4'>I am Md. Tareq Ibna Rahman. By profession I am a dental surgeon, I am working as a lecturer and medical officer in a Private Dental college and hospital in Dhaka. Despite my Dental profession I have a strong interest in web development. And my inspiration comes from Dr. Mehedi hasan , who invented free and open source bangla writing software avro. He proved that a doctor can also become developer.  By my dedication and hard work  I have  learned the technologies from online courses  that is required for the front end development .  <br /> <br />
                         I can develop the front end part of website. I have also skill of graphic design. 
  </p>
